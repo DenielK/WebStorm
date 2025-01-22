@@ -1,46 +1,116 @@
-img{
-    margin-left: 40%;
-    border: 5px solid grey;
-    border-radius: 160px;
-    width: 10%;
-    padding : 1%;
+/* Page Settings
+ */
+body {
+    font-family: Georgia, Times, serif;
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 h1{
     font-family: Georgia, Times, serif;
     letter-spacing: 2px;
     font-variant: small-caps;
-    color: darkgrey;
+    color: black;
     text-align: center;
+    margin-top: 20px;
 }
-body{
-    font-family: Georgia, Times, serif;
-    background-color: lightgrey;
+img {
+    display: block;
+    margin: 20px auto;
+    border: 1px darkgrey;
+    border-radius: 160px;
+    width: 20%;
+    padding: 0.2%;
 }
 ul{
-
    list-style-type: square;
-    margin-left : 5%;
-    border : 1pt dotted grey;
-    width: 30%
+    margin: 10px 5%;
+    padding: 10px;
+    border: 1px dotted green;
+    max-width: 80%;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
 #issue1
 {
-    margin-left: 25%;
-    border: 1pt dotted green;
+    margin: 20px auto;
+    border: 1px dotted green;
     font-family: Georgia, Times, serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-variant: small-caps;
     color: lightseagreen;
     text-align: center;
     width: 50%;
+    max-width: 70%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 #issue2
 {
-    margin-left: 25%;
+    margin: 20px auto;
     font-family: Georgia, Times, serif;
     letter-spacing: 2px;
     font-variant: all-small-caps;
-    color: green;
+    color: black;
     text-align: left;
-    width: 75%;
+    max-width: 70%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px dotted green;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+pre {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    max-width: 80%;
+    margin: 20px auto;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    background-color: darkgrey;
+    border-radius: 3px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    border-top: 1px solid green;
+    color: black;
+    font-size: 14px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
 }
