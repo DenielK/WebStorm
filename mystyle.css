@@ -23,7 +23,8 @@ ul{
     border : 1pt dotted grey;
     width: 30%
 }
-#issue1 {
+#issue1
+{
     margin-left: 25%;
     border: 1pt dotted green;
     font-family: Georgia, Times, serif;
@@ -32,4 +33,14 @@ ul{
     color: lightseagreen;
     text-align: center;
     width: 50%;
+}
+#issue2
+{
+    margin-left: 25%;
+    font-family: Georgia, Times, serif;
+    letter-spacing: 2px;
+    font-variant: all-small-caps;
+    color: green;
+    text-align: left;
+    width: 75%;
 }
