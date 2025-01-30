@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccfcd1;
+}
+header{
+    text-align: center;
+    font-size: 15px;
+    font-variant: small-caps;
+    border: solid 1px white;
+    background-image: url("../content/Nimetu.png");
+    background-color: papayawhip;
+    background-repeat: no-repeat;
+    background-size: contain; /*pilt mahub header sisse*/
+}
+header h1{
+    letter-spacing: 0.1cm;
+
+}
+nav{
+    margin: 0 0 10% 0; /*top right bottom left*/
+    background-color: papayawhip;
+}
+.menu, .menu ul{
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu{
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background: green;
+    top: 10px;
+}
+.menu ul>li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.dropdown{
+    display: none;
+}
+.menu li>a{
+    display: block;
+    color: LimeGreen;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+
+    transition: all 0.5s ease;
+}
+.menu li:hover>a{
+    background: LimeGreen;
+    color: Black;
+    width: 100px;
+}
+.dropdown{
+    /*  display: none;*/
+    display: block;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    background:palegreen;
+
+    transition: all 0.3s ease;
+}
+
+.menu li:hover>ul{
+    top: 47px;
+    left: 0;
+    opacity: 1;
+}
+nav ul li{
+    display: block;
+    float: left;
+    padding:1%;
+    width:130px;
+    background-color:#8cf898;
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 40px;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #ccfcd1;
+    text-align: center;
+}
+Section {
+    margin: 10px;
+    width: 30%;
+    border: dotted 1px black;
+    border-radius: 30px;
+    padding: 2%;/*vahe tekstist äärisebu*/
+}
